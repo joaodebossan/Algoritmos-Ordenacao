@@ -43,7 +43,7 @@ Pega cada elemento da lista e o insere na posição correta da parte que já est
 
 Pontos fortes:
 
-Excelente para listas quase ordenadas
+- Excelente para listas quase ordenadas
 
 - Poucas trocas: só movimenta o necessário
 
