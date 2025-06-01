@@ -6,7 +6,4 @@ Algoritmos de Ordenação
 
 Grupo:
 
-Dayana Gil
-João Debossan
-Julia Vignoli
-Pedro Paes
+Dayana Gil, João Debossan, Julia Vignoli e Pedro Paes
