@@ -35,3 +35,30 @@ lista = listaDesordenada()
 listaOrdenada = selectionSort(lista.copy())
 
 print(f"Lista ordenada com Selection Sort:\n{listaOrdenada}")
+
+
+'''
+Selection Sort
+Como  funciona: 
+A cada iteração, encontra o menor elemento do restante da lista e coloca na posição certa.
+
+Pontos fortes:
+
+- Simples de implementar
+
+- Número fixo de comparações (independente da ordem da lista)
+
+- Boa escolha se trocas forem mais caras que comparações
+
+Pontos fracos:
+
+- Lento: sempre faz O(n²) comparações e trocas
+
+- Não adaptativo: não melhora se a lista já estiver ordenada
+
+- Pouco eficiente para listas grandes
+
+Ideal para:
+Aprender lógica de ordenação e ensinar algoritmos básicos. Pouco usado na prática.
+
+'''

@@ -51,3 +51,28 @@ lista = listaDesordenada()
 ordenada = mergeSort(lista)
 
 print(f"Lista ordenada com Merge Sort:\n{ordenada}")
+
+'''
+Merge Sort
+Como funciona:
+Divide a lista em duas até ter só elementos únicos e depois mescla tudo em ordem.
+
+Pontos fortes:
+
+- Complexidade garantida: O(n log n) mesmo no pior caso
+
+- Muito estável
+
+- Excelente para listas grandes
+
+- Usado quando é necessário manter a estabilidade da ordenação
+
+Pontos fracos:
+
+- Usa mais memória: cria muitas listas temporárias
+
+- Mais lento que Quick Sort na média (mas mais seguro)
+
+Ideal para:
+Listas muito grandes ou quando a estabilidade da ordenação importa (ex: ordenar por nome sem bagunçar a ordem anterior).
+'''

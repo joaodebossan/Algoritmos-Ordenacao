@@ -33,3 +33,26 @@ lista = listaDesordenada()
 ordenada = bubbleSort(lista.copy())
 
 print(f"Lista ordenada com Bubble Sort:\n{ordenada}")
+
+'''
+Bubble Sort
+Como funciona:
+Percorre a lista várias vezes, trocando vizinhos fora de ordem. Os maiores “borbulham” para o final.
+
+Pontos fortes:
+
+- Muito fácil de entender e implementar
+
+- Pode ser otimizado para parar se a lista já estiver ordenada (versão adaptativa)
+
+Pontos fracos:
+
+- Lento: O(n²) no pior caso
+
+- Mesmo com otimizações, continua ineficiente em listas médias ou grandes
+
+- Muitas trocas desnecessárias
+
+Ideal para:
+Ensino básico e quando a lista é muito pequena. Nunca é usado em produção.
+'''

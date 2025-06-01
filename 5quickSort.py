@@ -44,3 +44,30 @@ lista = listaDesordenada()
 ordenada = quickSort(lista)
 
 print(f"Lista ordenada com Quick Sort:\n{ordenada}")
+
+'''
+Quick Sort
+Como funciona:
+Escolhe um pivô, divide em menores e maiores, e ordena recursivamente.
+
+Pontos fortes:
+
+- Muito rápido na prática
+
+- Complexidade média: O(n log n)
+
+- Usa pouca memória (em versões in-place)
+
+- Funciona bem mesmo com listas grandes
+
+Pontos fracos:
+
+- Pior caso é O(n²) (quando o pivô é mal escolhido)
+
+- Não é estável
+
+- Recursivo: pode estourar pilha se mal implementado
+
+Ideal para:
+Ordenação geral de grandes volumes de dados, quando não precisa de estabilidade. É o queridinho de muitos sistemas por ser rápido e enxuto.
+'''

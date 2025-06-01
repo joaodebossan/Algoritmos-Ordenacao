@@ -35,3 +35,28 @@ lista = listaDesordenada()
 ordenada = insertionSort(lista.copy())
 
 print(f"Lista ordenada com Insertion Sort:\n{ordenada}")
+
+'''
+Insertion Sort
+Como funciona:
+Pega cada elemento da lista e o insere na posição correta da parte que já está ordenada.
+
+Pontos fortes:
+
+Excelente para listas quase ordenadas
+
+- Poucas trocas: só movimenta o necessário
+
+- Funciona bem com listas pequenas
+
+- Simples e estável (mantém ordem dos iguais)
+
+Pontos fracos:
+
+- O(n²) no pior caso (lista invertida)
+
+- Ainda lento para listas grandes
+
+Ideal para:
+Listas pequenas ou quase ordenadas. Muito usado como parte de algoritmos maiores (ex: no final de um Quick Sort).
+'''
