@@ -1,4 +1,5 @@
 import random
+import time
 
 def listaDesordenada():
     try:
@@ -21,6 +22,7 @@ def listaDesordenada():
         print(f"Ocorreu um erro inesperado: {e}")
         return listaDesordenada()
 
+inicio = time.time()
 def bubbleSort(lista):
     n = len(lista)
     for i in range(n):
@@ -31,8 +33,10 @@ def bubbleSort(lista):
 
 lista = listaDesordenada()
 ordenada = bubbleSort(lista.copy())
+fim = time.time()
 
 print(f"Lista ordenada com Bubble Sort:\n{ordenada}")
+print(f'O tempo de execução foi de {fim - inicio:.4f} segundos.')
 
 '''
 Bubble Sort

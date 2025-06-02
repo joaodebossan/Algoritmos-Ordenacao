@@ -1,4 +1,5 @@
 import random
+import time
 
 def listaDesordenada():
     try:
@@ -21,6 +22,7 @@ def listaDesordenada():
         print(f"Ocorreu um erro inesperado: {e}")
         return listaDesordenada()
 
+inicio = time.time()
 def mergeSort(lista):
     if len(lista) <= 1:
         return lista
@@ -49,8 +51,10 @@ def mergeS(esquerda, direita):
 
 lista = listaDesordenada()
 ordenada = mergeSort(lista)
+fim = time.time()
 
 print(f"Lista ordenada com Merge Sort:\n{ordenada}")
+print(f'O tempo de execução foi de {fim - inicio:.4f} segundos.')
 
 '''
 Merge Sort
